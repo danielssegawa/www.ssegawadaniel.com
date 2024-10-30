@@ -1,2 +1,1 @@
-# www.ssegawadaniel.com
-Computer solutions 
+idex.html
