@@ -1,24 +1,84 @@
-body {
-    font-family: Arial, sans-serif;
+/* Global Styles */
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-section {
-    padding: 20px;
-}
-
-h1, h2 {
+body {
+    line-height: 1.6;
     color: #333;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
 }
 
-p, ul {
-    color: #555;
+/* Header Section */
+header {
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff;
+}
+
+.about h2 {
+    color: #4caf50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.services {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.services h2 {
+    color: #4caf50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 0.9rem;
 }
